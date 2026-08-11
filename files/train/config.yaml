@@ -1,0 +1,13 @@
+epochs: 3
+batch_size: 64
+lr: 0.001
+input_dim: 20
+hidden_dim: 64
+num_classes: 2
+n_samples: 2000
+val_split: 0.2
+output_dir: outputs
+checkpoint_name: model.pt
+# optional moithub settings (can set via env: MOITHUB_API_URL and MOITHUB_TOKEN)
+moithub_api_url: "https://moithub.com"
+moithub_token: "" 
